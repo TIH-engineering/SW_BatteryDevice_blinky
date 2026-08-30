@@ -28,4 +28,4 @@ Bauteile der Platine beschädigt werden.
 
 Das mitgelieferte Programm ist bewusst sehr einfach gehalten.
 
-In der Hauptschleife wird die `Alive_LED` periodisch umgeschaltet:
+In der Hauptschleife wird die `Alive_LED` periodisch umgeschaltet.
