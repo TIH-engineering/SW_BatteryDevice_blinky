@@ -113,9 +113,9 @@ int main(void)
   while (1)
   {
 	  HAL_GPIO_TogglePin(Alive_LED_GPIO_Port, Alive_LED_Pin); // LED toggeln
-	  HAL_DELAY(300);
+	  HAL_Delay(300);
 
-	  /* USER CODE END WHILE */
+    /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }
@@ -506,8 +506,7 @@ void Error_Handler(void)
   }
   /* USER CODE END Error_Handler_Debug */
 }
-
-#ifdef  USE_FULL_ASSERT
+#ifdef USE_FULL_ASSERT
 /**
   * @brief  Reports the name of the source file and the source line number
   *         where the assert_param error has occurred.

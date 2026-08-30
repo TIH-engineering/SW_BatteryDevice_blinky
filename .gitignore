@@ -1,10 +1,8 @@
 ############################
 # STM32CubeIDE / Eclipse
 ############################
-.settings/
 .metadata/
 RemoteSystemsTempFiles/
-.vscode/
 
 ############################
 # Build output / binaries
@@ -24,7 +22,11 @@ build/
 # CubeMX generated backups
 ############################
 *.ioc-backup
-*.launch
+
+############################
+# Other IDEs
+############################
+.vscode/
 
 ############################
 # Editor/OS temp files
